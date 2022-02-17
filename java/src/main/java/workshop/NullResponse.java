@@ -8,7 +8,7 @@ public class NullResponse implements PatternMatcher{
     }
 
     @Override
-    public String generateRresponse() {
+    public String generateResponse() {
         // TODO Auto-generated method stub
         return "";
     }

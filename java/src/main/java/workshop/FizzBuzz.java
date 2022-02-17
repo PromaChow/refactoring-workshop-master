@@ -18,11 +18,11 @@ public class FizzBuzz {
         this.nullObjectPattern = nullObjectPattern;
     }
 
-    public  String say(int number) {
-        String strReturn = nullObjectPattern.generateRresponse();
+    public String say(int number) {
+        String strReturn = nullObjectPattern.generateResponse();
 
         for (PatternMatcher patternMatcher : patternMatchers) {
-            if (patternMatcher.matches(number)) strReturn += patternMatcher.generateRresponse();
+            if (patternMatcher.matches(number)) strReturn += patternMatcher.generateResponse();
         }
 
         return strReturn;
